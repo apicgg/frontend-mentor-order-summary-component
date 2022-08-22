@@ -13,10 +13,38 @@
 
     <title>Frontend Mentor | Order summary card</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
-    <h1 class="text-red-500">Hello</h1>
+  <body class="min-h-screen flex items-center justify-center">
+    <main>
+      <section class="p-4 flex flex-col justify-center">
+        <div class="flex justify-center items-center">
+          <img
+            class="rounded-t-2xl"
+            src="images/illustration-hero.svg "
+            alt="Card main image" />
+        </div>
+        <header class="flex flex-col justify-center items-center">
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks and podcasts on
+            any device anywhere you like!
+          </p>
+        </header>
+        <div>
+          <img src="images/icon-music.svg" alt="Music icon image" />
+          <div>
+            <p>Annual Plan</p>
+            <p>$59.99/year</p>
+          </div>
+          <a href="#">Change</a>
+        </div>
+        <div>
+          <button>Proceed to Payment</button>
+          <button>Cancel Order</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
