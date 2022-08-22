@@ -25,14 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2022-08-22 at 19-16-14 Frontend Mentor Order summary card](https://user-images.githubusercontent.com/78271602/185937364-0966b4da-ab02-4c91-9622-b91c68067795.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [GitHub Repo](https://github.com/apicgg/frontend-mentor-order-summary-component)
 
 ### Built with
 
