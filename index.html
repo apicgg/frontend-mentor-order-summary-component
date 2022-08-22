@@ -16,35 +16,47 @@
     <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body class="min-h-screen flex items-center justify-center">
-    <main>
-      <section class="p-4 flex flex-col justify-center">
-        <div class="flex justify-center items-center">
-          <img
-            class="rounded-t-2xl"
-            src="images/illustration-hero.svg "
-            alt="Card main image" />
-        </div>
-        <header class="flex flex-col justify-center items-center">
-          <h1>Order Summary</h1>
-          <p>
-            You can now listen to millions of songs, audiobooks and podcasts on
-            any device anywhere you like!
-          </p>
-        </header>
-        <div>
+  <body class="min-h-screen flex items-center justify-center bg-paleBlue">
+    <section
+      class="flex flex-col justify-center items-center rounded-lg bg-[#fff]">
+      <img
+        class="rounded-t-2xl"
+        src="images/illustration-hero.svg "
+        alt="Card main image" />
+
+      <header class="py-4 my-4">
+        <h1 class="text-center pt-4 pb-4 font-black text-2xl">Order Summary</h1>
+        <p class="text-center text-desaturatedBlue">
+          You can now listen to millions of <br />
+          songs, audiobooks and podcasts on <br />
+          any device anywhere you like!
+        </p>
+      </header>
+      <div
+        class="flex items-center justify-center gap-10 py-8 my-2 rounded-lg w-3/4 bg-veryPaleBlue">
+        <div class="flex items-center gap-4 pr-8">
           <img src="images/icon-music.svg" alt="Music icon image" />
           <div>
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
+            <p class="font-black">Annual Plan</p>
+            <p class="text-desaturatedBlue">$59.99/year</p>
           </div>
-          <a href="#">Change</a>
         </div>
-        <div>
-          <button>Proceed to Payment</button>
-          <button>Cancel Order</button>
-        </div>
-      </section>
-    </main>
+        <a
+          class="text-brightBlue underline font-bold hover:text-desaturatedBlue transition duration-300"
+          href="#"
+          >Change</a
+        >
+      </div>
+      <div class="flex flex-col items-center justify-center">
+        <button
+          class="p-4 my-4 px-24 rounded-xl bg-brightBlue text-[#fff] font-bold hover:bg-desaturatedBlue transition duration-300">
+          Proceed to Payment
+        </button>
+        <button
+          class="pt-1 mb-6 pb-4 text-desaturatedBlue font-black hover:text-[#000] transition duration-300">
+          Cancel Order
+        </button>
+      </div>
+    </section>
   </body>
 </html>
