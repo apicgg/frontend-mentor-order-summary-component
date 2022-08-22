@@ -30,6 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/apicgg/frontend-mentor-order-summary-component)
+- Live URL: [Live Solution](https://apicgg.github.io/frontend-mentor-order-summary-component/)
 
 ### Built with
 
